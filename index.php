@@ -10,15 +10,15 @@ if ($method == "POST"){
 
     switch ($text) {
         case 'Bonjour':
-            $speech = "Bonjour, comment vas tu ?"
+            $speech = "Bonjour, comment vas tu ?";
         break;
 
         case 'Salut':
-            $speech = "hey man!"
+            $speech = "hey man!";
         break;
 
         default:
-            $speech = "Désolé je n'ai pas compris."
+            $speech = "Désolé je n'ai pas compris.";
         break;
     }
 
@@ -30,5 +30,5 @@ if ($method == "POST"){
 }
 else
 {
-    echo "method not"
+    echo "method not";
 }
